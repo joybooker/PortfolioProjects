@@ -150,4 +150,3 @@ JOIN PortfolioProject..CovidVaccinations vac
 	and dea.date = vac.date
 WHERE dea.continent is not null 
 
-SELECT

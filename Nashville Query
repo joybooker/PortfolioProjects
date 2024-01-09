@@ -1,8 +1,8 @@
-/*
+<code style="color : red">/*
 
 Cleaning Data in SQL Queries
 
-*/
+*/text</code>
 
 SELECT *
 FROM PortfolioProject.dbo.NashvilleHousing

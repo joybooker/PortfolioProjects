@@ -1,5 +1,5 @@
 /*
-Employee Compensation Exploration 
+Employee Compensation Data Exploration 
 */
 
 -- Check Dataset

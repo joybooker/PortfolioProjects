@@ -33,7 +33,10 @@ ELSE 'Free'
 END AS App_Type,
 AVG(user_rating) AS Avg_Rating
 FROM AppleStore
-GROUP BY App_Type
+GROUP BY CASE 
+WHEN price > 0 THEN 'Paid'
+ELSE 'Free'
+END    
 
 -- Do apps with more supported languages have higher ratings?
 
